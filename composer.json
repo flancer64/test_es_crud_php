@@ -1,0 +1,20 @@
+{
+  "name": "flancer64/test_es_crud_php",
+  "description": "Dev. project to test CRUD operations with ElasticSearch",
+  "type": "project",
+  "homepage": "https://github.com/flancer64/test_es_crud_php",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Alex Gusev", "email": "alex@flancer64.com"
+    }
+  ],
+  "require": {
+    "elasticsearch/elasticsearch": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flancer64\\Test\\Es\\": "src/"
+    }
+  }
+}
